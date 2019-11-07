@@ -15,7 +15,7 @@ img_size = 56
 BUFFER_SIZE = 202599
 BATCH_SIZE = 256
 
-data_dir = 'D:/研究所/碩一/基於深度學習之視覺辯論專論/HW2/HW2/data'
+data_dir = './data'
 
 def read_and_decode(filename):
   filename_queue = tf.train.string_input_producer([data_dir + ".tfrecords"], num_epochs = None)
